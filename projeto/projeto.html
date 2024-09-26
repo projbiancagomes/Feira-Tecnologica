@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feira Tecnológica 2024</title>
+    <link rel="stylesheet" href="projeto.css">
+</head>
+<body>
+
+    <div class="header">
+        <img src="logo.png" alt="Logo" class="logo"> <!-- Substitua 'logo.png' pela sua logo -->
+        <a href="#" class="back-arrow">&#x2190;</a> <!-- Seta para voltar -->
+    </div>
+
+    <div class="title-container">
+        <h1>FEIRA TECNOLÓGICA 2024</h1>
+        <h2 class="sub-title-red">ETEC Maria Cristina Medeiros</h2>
+        <h3 class="sub-title-black">Projetos da feira tecnológica</h3>
+    </div>
+
+    <div class="search-container">
+        <input type="text" placeholder="Pesquisar projeto..." class="search-bar">
+    </div>
+
+    <div class="filter-container">
+        <button class="filter-button" id="openFilter">Filtro</button> <!-- Botão para abrir o filtro -->
+        <div class="filter-modal" id="filterModal" style="display: none;">
+            <h4>Curso</h4>
+            <select class="filter-select">
+                <option value="" disabled selected>Selecione o curso</option>
+                <option value="Informática">Informática</option>
+                <option value="Administração">Administração</option>
+                <option value="Contabilidade">Contabilidade</option>
+                <option value="Eletrônica">Eletrônica</option>
+                <option value="Mecânica">Mecânica</option>
+                <option value="Química">Química</option>
+            </select>
+
+            <h4>Série</h4>
+            <select class="filter-select">
+                <option value="" disabled selected>Selecione a série</option>
+                <option value="1º ano">1º ano</option>
+                <option value="2º ano">2º ano</option>
+                <option value="3º ano">3º ano</option>
+            </select>
+
+            <div class="filter-buttons">
+                <button class="apply-button">Aplicar</button>
+                <button class="clear-button">Limpar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- Arquivo JavaScript -->
+</body>
+</html>
