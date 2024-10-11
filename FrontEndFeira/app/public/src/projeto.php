@@ -56,6 +56,95 @@
         </div>
     </div>
 
+    <div class="section">
+        <h2>Manhã</h2>
+        <div class="grid">
+            <div class="box">
+                <img src="../assets/img/Rize.png" alt="Imagem 1">
+                <span class="name">Tokyo Ghoul</span>
+            </div>
+            <div class="box">
+                <img src="../assets/img/gojo.jpg" alt="Imagem 2">
+                <span class="name">Jujutsu Kaisen</span>
+            </div>
+            <div class="box">
+                <img src="../assets/img/Charlotte.jpg" alt="Imagem 3">
+                <span class="name">Charlotte</span>
+            </div>
+            <div class="box">
+                <img src="../assets/img/kuro.jpg" alt="Imagem 4">
+                <span class="name">Kuroshitsuji</span>
+            </div>
+            <div class="box">
+                <img src="../assets/img/diabolik.jpg" alt="Imagem 5">
+                <span class="name">CAPS</span>
+            </div>
+            <div class="box">
+                <img src="../assets/img/magi.jpg" alt="Imagem 6">
+                <span class="name">Magi</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Tarde</h2>
+        <div class="grid">
+            <div class="box">
+                <img src="https://via.placeholder.com/200" alt="Imagem 1">
+                <span class="name">Nome</span>
+            </div>
+            <div class="box">
+                <img src="https://via.placeholder.com/200" alt="Imagem 2">
+                <span class="name">Nome</span>
+            </div>
+            <div class="box">
+                <img src="https://via.placeholder.com/200" alt="Imagem 3">
+                <span class="name">Nome</span>
+            </div>
+            <div class="box">
+                <img src="https://via.placeholder.com/200" alt="Imagem 4">
+                <span class="name">Nome</span>
+            </div>
+            <div class="box">
+                <img src="https://via.placeholder.com/200" alt="Imagem 5">
+                <span class="name">Nome</span>
+            </div>
+            <div class="box">
+                <img src="https://via.placeholder.com/200" alt="Imagem 6">
+                <span class="name">Nome</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Noite</h2>
+        <div class="grid">
+            <div class="box">
+                <img src="https://via.placeholder.com/200" alt="Imagem 1">
+                <span class="name">Nome</span>
+            </div>
+            <div class="box">
+                <img src="https://via.placeholder.com/200" alt="Imagem 2">
+                <span class="name">Nome</span>
+            </div>
+            <div class="box">
+                <img src="https://via.placeholder.com/200" alt="Imagem 3">
+                <span class="name">Nome</span>
+            </div>
+            <div class="box">
+                <img src="https://via.placeholder.com/200" alt="Imagem 4">
+                <span class="name">Nome</span>
+            </div>
+            <div class="box">
+                <img src="https://via.placeholder.com/200" alt="Imagem 5">
+                <span class="name">Nome</span>
+            </div>
+            <div class="box">
+                <img src="https://via.placeholder.com/200" alt="Imagem 6">
+                <span class="name">Nome</span>
+            </div>
+        </div>
+    </div>
     <script src="../assets/js/projeto.js"></script>
 </body>
 </html>
