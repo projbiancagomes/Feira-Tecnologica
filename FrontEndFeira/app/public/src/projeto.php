@@ -24,35 +24,32 @@
         <input type="text" placeholder="Pesquisar projeto..." class="search-bar">
     </div>
 
-    <div class="filter-container">
-        <button class="filter-button" id="openFilter">Filtro</button> 
-        <div class="filter-modal" id="filterModal" style="display: none;">
-            <h4>Curso</h4>
-            <select class="filter-select">
-                <option value="" disabled selected>Selecione o curso</option>
-                <option value="Administração">Administração</option>
-                <option value="Logística">Logística</option>
-                <option value="Recursos Humanos">Recursos Humanos</option>
-                <option value="Informática">Informática</option>
-                <option value="Contabilidade">Contabilidade</option>
-                <option value="Química">Química</option>
-            </select>
+    <div class="header">
+        <button id="filter-btn" class="filter-button">Filtrar</button>
+    </div>
 
-            <h4>Série</h4>
-            <select class="filter-select">
-                <option value="" disabled selected>Selecione a série</option>
-                <option value="1º Ano">1º Ano</option>
-                <option value="2º Ano">2º Ano</option>
-                <option value="3º Ano">3º Ano</option>
-                <option value="1º Módulo">1º Módulo</option>
-                <option value="2º Módulo">2º Módulo</option>
-                <option value="3º Módulo">3º Módulo</option>
-            </select>
-
-            <div class="filter-buttons">
-                <button class="apply-button">Aplicar</button>
-                <button class="clear-button">Limpar</button>
-            </div>
+    <div id="filter-modal" class="filter-modal">
+        <h4>Curso</h4>
+        <div class="filter-options cursos">
+            <button class="filter-option">Administração</button>
+            <button class="filter-option">Logística</button>
+            <button class="filter-option">Recursos Humanos</button>
+            <button class="filter-option">Informática</button>
+            <button class="filter-option">Contabilidade</button>
+            <button class="filter-option">Química</button>
+        </div>
+        <h4>Série</h4>
+        <div class="filter-options series">
+            <button class="filter-option">1º ano</button>
+            <button class="filter-option">2º ano</button>
+            <button class="filter-option">3º ano</button>
+            <button class="filter-option">1º módulo</button>
+            <button class="filter-option">2º módulo</button>
+            <button class="filter-option">3º módulo</button>
+        </div>
+        <div class="filter-buttons">
+            <button class="apply-button">Aplicar</button>
+            <button class="clear-button">Limpar</button>
         </div>
     </div>
 
