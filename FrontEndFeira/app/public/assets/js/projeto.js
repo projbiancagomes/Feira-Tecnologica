@@ -1,10 +1,10 @@
-const openFilterButton = document.getElementById('openFilter');
-const filterModal = document.getElementById('filterModal');
+const filterBtn = document.getElementById("filter-btn");
+const filterModal = document.getElementById("filter-modal");
 
-openFilterButton.addEventListener('click', function() {
-    if (filterModal.style.display === 'none' || filterModal.style.display === '') {
-        filterModal.style.display = 'block'; 
+filterBtn.addEventListener("click", () => {
+    if (filterModal.style.display === "none" || filterModal.style.display === "") {
+        filterModal.style.display = "block"; // Mostra o modal
     } else {
-        filterModal.style.display = 'none'; 
+        filterModal.style.display = "none"; // Esconde o modal
     }
 });
